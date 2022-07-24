@@ -1,0 +1,172 @@
+
+
+/*************************************NAVBAR**************************/
+ nav {
+   z-index: 2 ;
+ }
+
+ .logo {
+   margin-left: 10%;
+   width: 70px;
+   height: 70px;
+   border-radius: 100%;
+ }
+ .nav-link {
+   font-weight: 500;
+   
+   letter-spacing: 0.0375rem !important;
+   cursor: pointer;
+   color: rgb(209, 13, 160) !important;
+  text-transform : uppercase;
+ }
+Link:hover {
+   color: blue;
+ 
+}
+#navbarSupportedContent{
+  margin-left: 400px;
+ 
+}
+nav .nav-item{
+   word-spacing: 80px !important;
+ }
+.navbar-nav > Link :hover {
+ print-color-adjust: brown;
+}
+
+ 
+  .navbar-brand{
+    padding:0;
+  }
+@media (max-width:768px) {
+  .navbar-brand{
+    width : 7rem;
+  }
+  
+}
+     .typed-text{
+      font-size : 1.5rem !important;
+     
+    }
+
+/*************************************HEADER**************************/
+
+
+.header-wraper{
+  position: relative;
+  /* background: url(icon.jpg) no-repeat  ; */
+  background-size: cover;
+  background-position: center;
+  /* height: 90vh; */
+}
+.main-info{
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: rgb(242, 246, 5);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center ;
+  text-transform: uppercase;
+  z-index: 1;
+}
+@media (max-width:768px) {
+  .main-info h1 {  
+    font-size : 1.5rem !important;
+  }
+  
+}
+
+/*************************************TYPED TEXT*******************/
+.typed-text{
+       
+      font-size : 4rem;
+      color : yellow !important;
+    }
+ @media (max-width:768px) {
+  .main-info h1 {  
+   font-size : 1.5rem !important;
+  }
+  
+}
+     /* .typed-text{
+      font-size : 1.5rem !important;
+     
+    } */
+
+
+
+/*************************************HEADER MAIN OFFER BUTTON*******************/
+ 
+    .btn-main-offer{
+      border : 1px solid black; 
+      text-transform :uppercase;
+      border-radius : 10px;
+      padding : 0.625rem 0.75rem 0.75rem 0.75rem;
+      color : white;
+      background-color: green;
+      margin : 2rem;
+    }
+ 
+
+
+
+/*************************************PARTICLES*******************/
+
+
+/*.tsparticles-canvas-el*/.tsparticles-canvas{
+  position : absolute;
+  height : 100vh;
+  width : 100vw;
+  z-index: -1;
+}
+
+
+
+
+
+@media (max-width : 768px) {
+  .particles-canvas {
+    display: flex;
+  }
+  
+}
+
+/**************************************ABOUT PAGE STYLING **************************************/
+
+#about{
+  content: inherit;
+  padding : 5%;
+}
+#me{
+  padding: 5%;
+}
+span{
+  color: blueviolet;
+}
+b{
+  color: chartreuse;
+}
+#three{
+  content: relative;
+  margin-left:5%;
+  border : 1px solid blue;
+  border-radius:5px;
+  padding: 5px;
+  background-color:#fff;
+  box-sizing: border-box;
+  box-shadow: #333;
+}
+#mine{
+  text-align: center;
+}
+#send{
+  background-color:blue;
+  color:#fff;
+  border-radius:5px;
+  position : left 100px;
+}
